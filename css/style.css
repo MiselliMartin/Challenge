@@ -329,7 +329,7 @@ textarea:focus-visible {
   width: 100%;
  }
  #encriptar {
-  font-size: normal;
+  font-size: large;
   border-right-width: 0px;
   border-bottom-width: 0px;
   border-left-width: 0px;
@@ -341,7 +341,7 @@ textarea:focus-visible {
   font-size: normal;
  }
  #encriptado {
-  font-size: small;
+  font-size: large;
  }
  #espacioBody {
   height: 90%;
