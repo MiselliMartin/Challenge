@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div id="todo">
+    <header>
+        <img src="img/logo.png" alt="Logo de Alura azul">
+        <h1 id="titulo">Encriptador de texto</h1>
+            <a href="https://github.com/MiselliMartin" target="_blank"><img class="fotosHeader" src="img/github-svgrepo-com.svg" alt="GitHub logo"></a>
+            <a href="https://www.linkedin.com/in/martin-miselli/" target="_blank"><img class="fotosHeader" src="img/linkedin.svg" alt="LinkedIn logo"></a>
+    </header>
+    <div id="espacioBody">
+        <div id="espacioEncriptar">
+            <textarea spellcheck="false" name="encriptar" id="encriptar" placeholder="Ingrese aquí su texto a encriptar..."></textarea>
+            <p id="prohibicion">⚠ solo letras minúsculas y sin acentos</p>
+            <p id="nadaEncriptar" style="display: none">~no hay nada para encriptar~</p>
+            <p id="nadaDesencriptar" style="display: none">~no hay nada para desencriptar~</p>
+            <div id="botonesEncriptar">
+                <button id="botonEncriptar" class="boton">encriptar</button>
+                <button id="botonDesencriptar" class="boton">desencriptar</button>
+            </div>
+        </div>    
+
+        <div id="espacioEncriptado">
+            <textarea readonly name="encriptado" id="encriptado"></textarea>
+            <img id="iTextArea" src="img/muñeco.png" alt="Muñeco Figma">
+            <p id="pTextArea">Introduce un texto para encriptar/desencriptar</p>
+            <p id="nadaCopiar" style="display: none">~no hay nada para copiar~</p>    
+            <div id="botonesDesencriptar">
+                <button id="botonPegar" style="display: none" class="boton">pegar ↖</button>
+                <button id="botonCopiar" class="boton">copiar</button>
+            </div>
+        </div>
+
+    </div>
+    
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
